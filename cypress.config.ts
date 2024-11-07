@@ -9,4 +9,10 @@ export default defineConfig({
     },
     supportFile: "cypress/support/component.ts", // Ensure this path is correct
   },
+
+  e2e: {
+    setupNodeEvents(on, config) {
+      // implement node event listeners here
+    },
+  },
 });
